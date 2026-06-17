@@ -1,5 +1,7 @@
 # SecureBank 360
 
+
+[![Coverage](https://img.shields.io/badge/Coverage-JaCoCo-blue?style=flat-square&logo=codecov)](https://github.com/Raphasha27/securebank-360/actions)
 [![CI](https://github.com/koketseraphasha/securebank-360/actions/workflows/ci.yml/badge.svg)](https://github.com/koketseraphasha/securebank-360/actions/workflows/ci.yml)
 
 **Enterprise digital banking platform with AI-powered security.**  
