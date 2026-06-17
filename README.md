@@ -18,6 +18,22 @@ Combines Java/Spring Boot banking systems with cybersecurity and AI — the ulti
 | Security | MFA, JWT, RBAC, session management |
 | AI Assistant | OpenAI-powered insights and reporting |
 
+
+## Architecture
+
+```mermaid
+graph LR
+    CL[Client] --> GW[API Gateway]
+    GW --> AUTH[Auth Service]
+    GW --> SVC[Banking Service]
+    SVC --> DB[(PostgreSQL)]
+    SVC --> EVT[Event Bus]
+    EVT --> AUD[Audit Log]
+    EVT --> FRAUD[Fraud Detection]
+```
+
+Microservices-based architecture with API Gateway, authentication layer, PostgreSQL persistence, and event-driven communication.
+
 ## Tech Stack
 
 - **Backend:** Java 21, Spring Boot 3.4, Spring Security, Spring Data JPA
