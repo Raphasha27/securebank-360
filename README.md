@@ -52,3 +52,23 @@ Banking-grade security designed for defensive financial technology. See [SECURIT
 ## Author
 
 **Koketso Raphasha** — Full-Stack Developer, AI Engineer, Cybersecurity Enthusiast
+
+## Deployment & Architecture
+
+This project is designed with cloud-ready principles:
+
+- **Containerized** using Docker for consistent deployment
+- **Environment-based configuration** — no hardcoded secrets
+- **Modular structure** for independent scaling
+- **Stateless design** where applicable
+- **Separation of concerns** for maintainability
+
+### Run Locally
+
+`ash
+docker-compose up --build
+`
+
+---
+
+*Part of the Kirov Dynamics Technology portfolio — backend engineering focused on security, scalability, and system design.*
