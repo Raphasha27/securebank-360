@@ -90,3 +90,7 @@ docker-compose up --build
 ---
 
 *Part of the Kirov Dynamics Technology portfolio — backend engineering focused on security, scalability, and system design.*
+
+## License
+
+MIT
