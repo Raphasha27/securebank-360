@@ -1,3 +1,11 @@
+<div align="center">
+  <a href="https://raphasha27.github.io/securebank-360/">
+    <img src="https://img.shields.io/badge/LIVE_DEPLOYMENT-View_App-0EA5E9?style=for-the-badge&logo=github&logoColor=white" alt="Live Deployment" />
+  </a>
+</div>
+
+<br/>
+
 # SecureBank 360
 
 
